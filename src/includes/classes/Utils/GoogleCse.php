@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * CSE utils.
  *
- * @since $v CSE utils.
+ * @since 160901.56373 CSE utils.
  */
 class GoogleCse extends SCoreClasses\SCore\Base\Core
 {
     /**
      * On `wp_loaded` hook.
      *
-     * @since $v CSE utils.
+     * @since 160901.56373 CSE utils.
      */
     public function onWpLoaded()
     {
@@ -69,7 +69,7 @@ class GoogleCse extends SCoreClasses\SCore\Base\Core
     /**
      * URL to CSE definition file.
      *
-     * @since $v CSE utils.
+     * @since 160901.56373 CSE utils.
      *
      * @return string URL to CSE definition file.
      */
@@ -81,7 +81,7 @@ class GoogleCse extends SCoreClasses\SCore\Base\Core
     /**
      * Options.
      *
-     * @since $v CSE utils.
+     * @since 160901.56373 CSE utils.
      *
      * @return array Options.
      */
@@ -104,7 +104,7 @@ class GoogleCse extends SCoreClasses\SCore\Base\Core
     /**
      * SHA-1 hash.
      *
-     * @since $v CSE utils.
+     * @since 160901.56373 CSE utils.
      *
      * @return string SHA-1 hash.
      */
@@ -119,7 +119,7 @@ class GoogleCse extends SCoreClasses\SCore\Base\Core
     /**
      * Generate.
      *
-     * @since $v CSE utils.
+     * @since 160901.56373 CSE utils.
      *
      * @return string XML file.
      */
@@ -267,7 +267,7 @@ class GoogleCse extends SCoreClasses\SCore\Base\Core
     /**
      * Facets/Annotations.
      *
-     * @since $v CSE utils.
+     * @since 160901.56373 CSE utils.
      *
      * @param $o array CSE options.
      *

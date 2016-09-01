@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Menu page utils.
  *
- * @since $v Initial release.
+ * @since 160901.56373 Initial release.
  */
 class MenuPage extends SCoreClasses\SCore\Base\Core
 {
     /**
      * On `admin_menu` hook.
      *
-     * @since $v Initial release.
+     * @since 160901.56373 Initial release.
      */
     public function onAdminMenu()
     {

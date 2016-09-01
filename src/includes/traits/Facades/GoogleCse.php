@@ -31,12 +31,12 @@ use function get_defined_vars as vars;
 /**
  * Google CSE.
  *
- * @since $v Initial release.
+ * @since 160901.56373 Initial release.
  */
 trait GoogleCse
 {
     /**
-     * @since $v Initial release.
+     * @since 160901.56373 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
@@ -48,7 +48,7 @@ trait GoogleCse
     }
 
     /**
-     * @since $v Initial release.
+     * @since 160901.56373 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
@@ -60,7 +60,7 @@ trait GoogleCse
     }
 
     /**
-     * @since $v Initial release.
+     * @since 160901.56373 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
@@ -72,7 +72,7 @@ trait GoogleCse
     }
 
     /**
-     * @since $v Initial release.
+     * @since 160901.56373 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *

@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Styles/scripts.
  *
- * @since $v Styles/scripts.
+ * @since 160901.56373 Styles/scripts.
  */
 class StylesScripts extends SCoreClasses\SCore\Base\Core
 {
     /**
      * Scripts/styles.
      *
-     * @since $v Styles/scripts.
+     * @since 160901.56373 Styles/scripts.
      */
     public function onWpEnqueueScripts()
     {

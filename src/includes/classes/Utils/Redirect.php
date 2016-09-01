@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Redirect utils.
  *
- * @since $v CSE utils.
+ * @since 160901.56373 CSE utils.
  */
 class Redirect extends SCoreClasses\SCore\Base\Core
 {
     /**
      * On `template_redirect` hook.
      *
-     * @since $v CSE utils.
+     * @since 160901.56373 CSE utils.
      */
     public function onTemplateRedirect()
     {

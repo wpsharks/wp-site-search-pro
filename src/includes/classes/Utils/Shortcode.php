@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Shortcode utils.
  *
- * @since $v Initial release.
+ * @since 160901.56373 Initial release.
  */
 class Shortcode extends SCoreClasses\SCore\Base\Core
 {
     /**
      * `[google_cse] /]` shortcode.
      *
-     * @since $v Initial release.
+     * @since 160901.56373 Initial release.
      *
      * @param array|string $atts      Shortcode attributes.
      * @param string|null  $content   Shortcode content.

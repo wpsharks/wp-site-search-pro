@@ -31,7 +31,7 @@ use function get_defined_vars as vars;
 /**
  * Facades.
  *
- * @since $v
+ * @since 160901.56373
  */
 abstract class Facades
 {
