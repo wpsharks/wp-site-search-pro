@@ -1,0 +1,54 @@
+{
+  "name": "websharks/wp-site-search-pro",
+  "homepage": "https://github.com/websharks/wp-site-search-pro",
+  "description": "WP Site Search Pro plugin for WordPress.",
+  "keywords": ["websharks", "wpsharks", "wp-site-search"],
+
+  "type": "project",
+  "license": "GPL-3.0+",
+
+  "authors": [{
+    "name": "wpsharks",
+    "homepage": "https://wpsharks.com",
+    "role": "company"
+  }, {
+    "name": "jaswsinc",
+    "homepage": "https://jaswsinc.com",
+    "role": "developer"
+  }, {
+    "name": "raamdev",
+    "homepage": "https://raamdev.com",
+    "role": "developer"
+  }],
+
+  "support": {
+    "source": "https://github.com/websharks/wp-site-search-pro",
+    "issues": "https://github.com/websharks/wp-site-search-pro/issues"
+  },
+
+  "require": {
+    "php-64bit": ">=7.0.4",
+    "websharks/wp-php-rv": "dev-master",
+    "websharks/wp-sharks-core-rv": "dev-master"
+  },
+  "require-dev": {},
+
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "autoload": {
+    "psr-4": {
+      "WebSharks\\WpSharks\\WpSiteSearch\\Pro\\Classes\\": "src/includes/classes",
+      "WebSharks\\WpSharks\\WpSiteSearch\\Pro\\Functions\\": "src/includes/functions",
+      "WebSharks\\WpSharks\\WpSiteSearch\\Pro\\Interfaces\\": "src/includes/interfaces",
+      "WebSharks\\WpSharks\\WpSiteSearch\\Pro\\Traits\\": "src/includes/traits"
+    }
+  },
+
+  "config": {
+    "vendor-dir": "src/vendor",
+    "preferred-install": "dist"
+  },
+
+  "repositories": []
+}

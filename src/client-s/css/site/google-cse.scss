@@ -1,0 +1,150 @@
+/*
+ * Dependencies. Requires a local copy of the WP Sharks Core.
+ */
+@import '../../../../../wp-sharks-core/src/client-s/css/bourbon/bourbon';
+
+/*
+ * Brand configuration.
+ */
+$brand-slug: 'wp-site-search';
+$brand-var: 'wp_site_search';
+
+/*
+ * Google CSE.
+ */
+.#{$brand-slug}-google-cse {
+  &,
+  a,
+  * {
+    border:                   0;
+    border-radius:            0;
+
+    //
+    margin:                   0;
+    padding:                  0;
+
+    //
+    width:                    auto;
+    height:                   auto;
+    max-width:                none;
+    max-height:               none;
+    box-sizing:               content-box;
+
+    //
+    text-shadow:              none;
+    box-shadow:               none;
+
+    //
+    vertical-align:           baseline;
+    line-height:              normal;
+  }
+
+  .gsc-selected-option-container {
+    * {
+      line-height:            inherit;
+    }
+  }
+
+  a {
+    img {
+      display:                inline;
+    }
+  }
+
+  table {
+    table-layout:             auto;
+    border-collapse:          separate;
+    border-spacing:           0;
+  }
+
+  .gcsc-branding {
+    font-family:              Arial, sans-serif;
+  }
+
+  > * > .gsc-control-cse {
+    border:                   0;
+    padding:                  0;
+
+    .gsc-search-box {
+      margin:                 0 0 2em;
+
+      .gsc-input .gsc-input {
+        font-size:            1.2em;
+        padding:             .25em .5em;
+        background-position: .35em !important;
+        box-sizing:           border-box;
+        width:                100%;
+      }
+
+      .gsc-search-button {
+        display:              none;
+      }
+    }
+
+    .gsc-tabsArea {
+      margin:                 0 0 .75em;
+
+      .gsc-tabHeader {
+        border-radius:        0;
+        font-size:            1.2em;
+        vertical-align:       bottom;
+        padding:             .25em .5em;
+
+        &.gsc-tabhInactive {
+          font-size:          1em;
+          border-radius:     .2em .2em 0 0;
+        }
+      }
+    }
+
+    .gsc-refinementsArea {
+      font-size:              1em;
+      padding:                0 0 .75em;
+      margin:                 0 0 .75em;
+    }
+
+    .gsc-above-wrapper-area {
+      margin:                 0 0 1em;
+      padding:                0 0 .75em;
+    }
+
+    .gsc-adBlock {
+      margin:                -1em 0 1em;
+
+      iframe {
+        width:                100%;
+      }
+    }
+
+    .gsc-results {
+      width:                  100%;
+      box-sizing:             border-box;
+
+      .gsc-result {
+        .gs-image,
+        .gs-promotion-image {
+          border:             0;
+        }
+
+        .gs-title {
+          height:             1.25em;
+        }
+
+        .gs-per-result-labels {
+          display:            none;
+        }
+      }
+
+      .gsc-cursor-box {
+        margin-top:           3em;
+
+        .gsc-cursor-page {
+          border:             0;
+          text-decoration:    none;
+          border-radius:     .25em;
+          padding:           .35em .65em;
+        }
+      }
+    }
+  }
+}
