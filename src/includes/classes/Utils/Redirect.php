@@ -50,6 +50,8 @@ class Redirect extends SCoreClasses\SCore\Base\Core
             return; // Not possible; no `q` var.
         } elseif (empty($_REQUEST['s']) && empty($_REQUEST[$q_var])) {
             return; // Nothing to do here.
+        } elseif (is_feed()) {
+            return; // Not applicable.
         }
         // Don't allow both to be the same.
         $q_var = $q_var === 's' ? 'q' : $q_var;
