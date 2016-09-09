@@ -4,7 +4,7 @@
  *
  * @wp-plugin
  *
- * Version: 160901.56373
+ * Version: 160909.60972
  * Text Domain: wp-site-search
  * Plugin Name: WP Site Search Pro
  *
