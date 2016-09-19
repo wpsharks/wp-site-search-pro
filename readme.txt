@@ -1,6 +1,6 @@
 === WP Site Search Pro ===
 
-Stable tag: 160917.31891
+Stable tag: 160919.20557
 
 Tested up to: 4.6
 Requires at least: 4.5.3

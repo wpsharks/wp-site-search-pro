@@ -1,4 +1,4 @@
-## $v
+## v160919.20557
 
 - Fixing broken HTML `<code>` tag in one of the tooltips on the options page.
 - Adding KBA reference to help explain how Custom Search Tabs work. See: [GitHub issue](https://github.com/websharks/wp-site-search/issues/4).
