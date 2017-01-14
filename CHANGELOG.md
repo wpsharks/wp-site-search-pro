@@ -1,3 +1,7 @@
+## $v
+
+- Enhancing security by removing `basename(__FILE__)` from direct access notices.
+
 ## v160919.20557
 
 - Fixing broken HTML `<code>` tag in one of the tooltips on the options page.
