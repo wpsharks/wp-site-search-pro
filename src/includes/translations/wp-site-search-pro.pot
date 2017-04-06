@@ -1,14 +1,14 @@
-# Copyright (C) 2016 WP Site Search Pro
+# Copyright (C) 2017 WP Site Search Pro
 # This file is distributed under the same license as the WP Site Search Pro package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Site Search Pro 160919.20557\n"
+"Project-Id-Version: WP Site Search Pro 170406.69551\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-site-search-pro\n"
-"POT-Creation-Date: 2016-09-19 05:43:49+00:00\n"
+"POT-Creation-Date: 2017-04-06 19:19:13+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -36,301 +36,301 @@ msgstr ""
 msgid "Design / Colors"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:36
+#: src/includes/templates/admin/menu-pages/options/default.php:39
 msgid "General Options"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:37
+#: src/includes/templates/admin/menu-pages/options/default.php:40
 msgid "You can browse our <a href=\"%1$s\" target=\"_blank\">knowledge base</a> to learn more about these options."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:41
+#: src/includes/templates/admin/menu-pages/options/default.php:44
 msgid "Search Page"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:42
+#: src/includes/templates/admin/menu-pages/options/default.php:45
 msgid "Choose a Page where searches can be performed.<hr />This Page is created automatically by the plugin. It contains a WordPress Shortcode that powers site search functionality.<hr /><code>[google_cse /]</code>"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:54
+#: src/includes/templates/admin/menu-pages/options/default.php:57
 msgid "Handle WP Searches?"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:55
+#: src/includes/templates/admin/menu-pages/options/default.php:58
 msgid "If enabled, all WordPress searches using <code>?s=[query]</code> will be redirected to your Search Page with <code>?q=[query]</code>"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:60
-#: src/includes/templates/admin/menu-pages/options/default.php:93
+#: src/includes/templates/admin/menu-pages/options/default.php:63
+#: src/includes/templates/admin/menu-pages/options/default.php:96
 msgid "No"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:61
-#: src/includes/templates/admin/menu-pages/options/default.php:94
+#: src/includes/templates/admin/menu-pages/options/default.php:64
+#: src/includes/templates/admin/menu-pages/options/default.php:97
 msgid "Yes"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:67
+#: src/includes/templates/admin/menu-pages/options/default.php:70
 msgid "Query Variable"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:68
+#: src/includes/templates/admin/menu-pages/options/default.php:71
 msgid "q"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:69
+#: src/includes/templates/admin/menu-pages/options/default.php:72
 msgid "The variable your Search Page receives for a new incoming search query; e.g., for <code>?q=[query]</code>, just type <code>q</code> as the variable name."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:70
+#: src/includes/templates/admin/menu-pages/options/default.php:73
 msgid "<code>q</code> is suggested for best compatibility with WordPress, AdSense, and Google Analytics."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:78
+#: src/includes/templates/admin/menu-pages/options/default.php:81
 msgid "Search Pattern"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:79
+#: src/includes/templates/admin/menu-pages/options/default.php:82
 msgid "*.%1$s/*"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:80
+#: src/includes/templates/admin/menu-pages/options/default.php:83
 msgid "Tells Google which site you would like to search.<hr />You can use <code>*</code> asterisks in your pattern as a wildcard that will match anything."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:87
+#: src/includes/templates/admin/menu-pages/options/default.php:90
 msgid "Enable Image Search?"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:88
+#: src/includes/templates/admin/menu-pages/options/default.php:91
 msgid "For most sites, this should be disabled in favor of a simpler search interface when it's off."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:100
+#: src/includes/templates/admin/menu-pages/options/default.php:103
 msgid "Additional Tabs"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:101
+#: src/includes/templates/admin/menu-pages/options/default.php:104
 msgid "Topics|*.%1$s/*/topic/*"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:102
+#: src/includes/templates/admin/menu-pages/options/default.php:105
 msgid "Articles|*.%1$s/article/*"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:103
+#: src/includes/templates/admin/menu-pages/options/default.php:106
 msgid "Products|*.%1$s/product/*"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:104
+#: src/includes/templates/admin/menu-pages/options/default.php:107
 msgid "A list of additional patterns that become search tabs.<hr />This allows a user to refine their search. Each line in this configuration becomes a new tab in the search interface."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:105
+#: src/includes/templates/admin/menu-pages/options/default.php:108
 msgid "e.g., <code>Title</code>|<code>pattern</code> ... (one per line). See: <a href=\"%1$s\" target=\"_blank\">Custom Search Tabs</a>"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:112
+#: src/includes/templates/admin/menu-pages/options/default.php:115
 msgid "Disable AdSense Ads?"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:113
+#: src/includes/templates/admin/menu-pages/options/default.php:116
 msgid "This asks Google not to show ads in your search results."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:114
+#: src/includes/templates/admin/menu-pages/options/default.php:117
 msgid "According to Google, you must be a registered non-profit to disable ads."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:119
+#: src/includes/templates/admin/menu-pages/options/default.php:122
 msgid "No, I will earn revenue from ads."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:120
+#: src/includes/templates/admin/menu-pages/options/default.php:123
 msgid "Yes, disable ads. I'm a non-profit organization."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:126
+#: src/includes/templates/admin/menu-pages/options/default.php:129
 msgid "AdSense Publisher ID"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:127
+#: src/includes/templates/admin/menu-pages/options/default.php:130
 msgid "partner-pub-7789239515831279"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/default.php:128
+#: src/includes/templates/admin/menu-pages/options/default.php:131
 msgid "If you have a Google AdSense account, set this to your own AdSense publisher ID.<hr />This allows you to earn revenue from ad impressions that result from users searching your site."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:36
+#: src/includes/templates/admin/menu-pages/options/design.php:39
 msgid "Design Options"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:37
+#: src/includes/templates/admin/menu-pages/options/design.php:40
 msgid "You can browse our <a href=\"%1$s\" target=\"_blank\">knowledge base</a> to learn more ."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:42
+#: src/includes/templates/admin/menu-pages/options/design.php:45
 msgid "Font Family"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:43
+#: src/includes/templates/admin/menu-pages/options/design.php:46
 msgid "'Gill Sans', Arial, sans-serif"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:44
+#: src/includes/templates/admin/menu-pages/options/design.php:47
 msgid "This is a comma-delimited list of font families, using CSS.<hr />Use <code>inherit</code> to inherit the font-family that your WordPress theme uses."
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:54
+#: src/includes/templates/admin/menu-pages/options/design.php:57
 msgid "Default Text"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:55
-#: src/includes/templates/admin/menu-pages/options/design.php:284
+#: src/includes/templates/admin/menu-pages/options/design.php:58
+#: src/includes/templates/admin/menu-pages/options/design.php:287
 msgid "#000000"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:65
+#: src/includes/templates/admin/menu-pages/options/design.php:68
 msgid "Result Title"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:66
-#: src/includes/templates/admin/menu-pages/options/design.php:75
-#: src/includes/templates/admin/menu-pages/options/design.php:84
-#: src/includes/templates/admin/menu-pages/options/design.php:246
-#: src/includes/templates/admin/menu-pages/options/design.php:255
-#: src/includes/templates/admin/menu-pages/options/design.php:264
+#: src/includes/templates/admin/menu-pages/options/design.php:69
+#: src/includes/templates/admin/menu-pages/options/design.php:78
+#: src/includes/templates/admin/menu-pages/options/design.php:87
+#: src/includes/templates/admin/menu-pages/options/design.php:249
+#: src/includes/templates/admin/menu-pages/options/design.php:258
+#: src/includes/templates/admin/menu-pages/options/design.php:267
 msgid "#0000CC"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:74
+#: src/includes/templates/admin/menu-pages/options/design.php:77
 msgid "Result Title (On Hover)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:83
+#: src/includes/templates/admin/menu-pages/options/design.php:86
 msgid "Result Title (When Active)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:94
+#: src/includes/templates/admin/menu-pages/options/design.php:97
 msgid "Result URL"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:95
-#: src/includes/templates/admin/menu-pages/options/design.php:293
+#: src/includes/templates/admin/menu-pages/options/design.php:98
+#: src/includes/templates/admin/menu-pages/options/design.php:296
 msgid "#008000"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:103
+#: src/includes/templates/admin/menu-pages/options/design.php:106
 msgid "Result URL (When Visited)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:104
-#: src/includes/templates/admin/menu-pages/options/design.php:146
-#: src/includes/templates/admin/menu-pages/options/design.php:273
+#: src/includes/templates/admin/menu-pages/options/design.php:107
+#: src/includes/templates/admin/menu-pages/options/design.php:149
+#: src/includes/templates/admin/menu-pages/options/design.php:276
 msgid "#1A2554"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:114
+#: src/includes/templates/admin/menu-pages/options/design.php:117
 msgid "Query Input Border"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:115
+#: src/includes/templates/admin/menu-pages/options/design.php:118
 msgid "#D9D9D9"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:125
+#: src/includes/templates/admin/menu-pages/options/design.php:128
 msgid "Tab Border"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:126
-#: src/includes/templates/admin/menu-pages/options/design.php:135
+#: src/includes/templates/admin/menu-pages/options/design.php:129
+#: src/includes/templates/admin/menu-pages/options/design.php:138
 msgid "#DFDFDF"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:134
+#: src/includes/templates/admin/menu-pages/options/design.php:137
 msgid "Tab Background"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:145
+#: src/includes/templates/admin/menu-pages/options/design.php:148
 msgid "Tab Border (When Selected)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:154
+#: src/includes/templates/admin/menu-pages/options/design.php:157
 msgid "Tab Background (When Selected)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:155
+#: src/includes/templates/admin/menu-pages/options/design.php:158
 msgid "#F0F0F0"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:165
+#: src/includes/templates/admin/menu-pages/options/design.php:168
 msgid "Result Border"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:166
-#: src/includes/templates/admin/menu-pages/options/design.php:175
-#: src/includes/templates/admin/menu-pages/options/design.php:186
-#: src/includes/templates/admin/menu-pages/options/design.php:195
-#: src/includes/templates/admin/menu-pages/options/design.php:226
-#: src/includes/templates/admin/menu-pages/options/design.php:235
+#: src/includes/templates/admin/menu-pages/options/design.php:169
+#: src/includes/templates/admin/menu-pages/options/design.php:178
+#: src/includes/templates/admin/menu-pages/options/design.php:189
+#: src/includes/templates/admin/menu-pages/options/design.php:198
+#: src/includes/templates/admin/menu-pages/options/design.php:229
+#: src/includes/templates/admin/menu-pages/options/design.php:238
 msgid "#FFFFFF"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:174
+#: src/includes/templates/admin/menu-pages/options/design.php:177
 msgid "Result Background"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:185
+#: src/includes/templates/admin/menu-pages/options/design.php:188
 msgid "Result Border (On Hover)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:194
+#: src/includes/templates/admin/menu-pages/options/design.php:197
 msgid "Result Background (On Hover)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:205
+#: src/includes/templates/admin/menu-pages/options/design.php:208
 msgid "AdSense Ad Border"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:206
-#: src/includes/templates/admin/menu-pages/options/design.php:215
+#: src/includes/templates/admin/menu-pages/options/design.php:209
+#: src/includes/templates/admin/menu-pages/options/design.php:218
 msgid "#F8FEF3"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:214
+#: src/includes/templates/admin/menu-pages/options/design.php:217
 msgid "AdSense Ad Background"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:225
+#: src/includes/templates/admin/menu-pages/options/design.php:228
 msgid "Promotion Border"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:234
+#: src/includes/templates/admin/menu-pages/options/design.php:237
 msgid "Promotion Background"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:245
+#: src/includes/templates/admin/menu-pages/options/design.php:248
 msgid "Promotion Title"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:254
+#: src/includes/templates/admin/menu-pages/options/design.php:257
 msgid "Promotion Title (On Hover)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:263
+#: src/includes/templates/admin/menu-pages/options/design.php:266
 msgid "Promotion Title (When Active)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:272
+#: src/includes/templates/admin/menu-pages/options/design.php:275
 msgid "Promotion Title (When Visited)"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:283
+#: src/includes/templates/admin/menu-pages/options/design.php:286
 msgid "Promotion Snippet"
 msgstr ""
 
-#: src/includes/templates/admin/menu-pages/options/design.php:292
+#: src/includes/templates/admin/menu-pages/options/design.php:295
 msgid "Promotion URL"
 msgstr ""
 
