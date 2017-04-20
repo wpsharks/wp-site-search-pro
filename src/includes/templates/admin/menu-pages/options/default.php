@@ -81,6 +81,7 @@ $Form = $this->s::menuPageForm('§save-options');
             'label'       => __('Search Pattern', 'wp-site-search'),
             'placeholder' => sprintf(__('*.%1$s/*', 'wp-site-search'), esc_attr($this->App->Config->©urls['©hosts']['©roots']['©app'])),
             'tip'         => __('Tells Google which site you would like to search.<hr />You can use <code>*</code> asterisks in your pattern as a wildcard that will match anything.', 'wp-site-search'),
+            'note' => sprintf(__('NOTE: This field does not accept WRegx. The only character that is special in a Google CSE search pattern is the wildcard <code>*</code> asterisk. See: <a href="%1$s" target="_blank">WRegx (Watered-Down Regex)</a>', 'wp-site-search'), esc_url(s::coreUrl('/kb-articles/wregx'))),
 
             'name'  => 'google_cse_site_pattern',
             'value' => s::getOption('google_cse_site_pattern'),
